@@ -1,0 +1,27 @@
+/*
+* Riley Flanagan
+* March 28, 2018
+* Description of Project
+*/
+
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Put body attributes here */
+
+.unfloat { clear: left; 
+}
+body {background-color: lightpink; color: green;
+font-family: Arial, Helvetica, sans-serif; 
+}
+
+h1 { font-size: 125%; text-align: center; text-decoration: underline overline; 
+}
+
+img { float: left; 
+}
+
