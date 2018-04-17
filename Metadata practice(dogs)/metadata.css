@@ -19,7 +19,13 @@ body {background-color: lightpink; color: green;
 font-family: Arial, Helvetica, sans-serif; 
 }
 
-h1 { font-size: 125%; text-align: center; text-decoration: underline overline; 
+h1 { font-size: 125%; text-align: center; text-decoration: underline overline; background-color: #7DBDF4;
+}
+
+h3 {background-color: #7DBDF4; 
+}
+
+p {background-color: white;
 }
 
 img { float: left; 
