@@ -1,0 +1,32 @@
+/*
+*Riley Flanagan
+*Due 4/24
+*Girl Develop It Project
+*/
+
+*{background-color: #FED5E6;
+}
+
+header {text-align: center; background-color: #C14C51; 
+}
+
+a:hover{color: deeppink; text-decoration: underline; font-size: 32px;
+}
+
+h1 {font-family: cursive; bold; 
+}
+
+h2 {font-family: cursive; 
+}
+
+.image1 {float: right;
+}
+
+.image2 {float: right;
+}
+
+.unfloat {clear: right;
+}
+
+main {font-family: sans-serif; 
+}
