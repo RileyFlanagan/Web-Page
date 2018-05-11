@@ -1,0 +1,45 @@
+/*
+*Riley Flanagan
+*Endangered Species Project
+*Due May 10
+*/
+
+/*This is the background color of my page*/
+*{background-color: seashell; 
+}
+
+*{margin:0; padding:0;
+}
+/*This is the text format of my page*/
+*{font-family: Ariel, "Times New Roman", serif; 
+}
+/*This is the title at the top of the page*/
+h1{padding-bottom: 30px; border-bottom: solid green; color: green; text-align: center; 
+}
+
+.devil1{float: left; border: dashed black; height: 28%; width: 32%; margin: 27px; 
+}
+
+main{border-bottom: solid green; padding: 30px; margin: 20px; 
+}
+/*These two pictures are both floated on the sides of the two paragraphs*/
+.devil2{float: left; border: solid black; margin: 10px; 
+}
+
+.devil3{float: right; border: solid black; margin: 10px;
+}
+/*This is a picture of a map that shows the Tasmanian Devil's natural habitat where it lives*/
+.TasmaniaMap{float: right; border: dashed black; padding: 10px; margin: 38px; 
+}
+/*These 3 pictures all are centered in the middle of the page and have the same borders*/
+.devil4{border: thin black; margin-top: 30px; padding: 10px; 
+}
+
+.devil5{border: thin black; margin-top: 30px; padding: 10px;
+}
+
+.devil6{border: thin black; margin-top: 30px; padding: 10px; 
+}
+/*This unfloat is for the first picture to stop floating onto the first paragraph*/
+.unfloat{clear: left; 
+}
