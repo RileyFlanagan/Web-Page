@@ -1,0 +1,91 @@
+/* Name: Riley Flanagan
+*  Date: May 25, 2018
+*  Lab: Innovative Women Project */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 85%;
+    background-color: tan; /*This is the background color of the web page*/
+    margin: 15px auto;
+    border: 1px solid black;
+}
+
+h1 {
+    padding: 10px;
+}
+
+.hodgkin1 { /*This is a class for the first picture in the middle of the page on the top left*/
+	float: left; 
+	height: 175px;
+	width: 170px;	
+	border: thin solid black; /*This is the border for the first picture*/
+	margin: 6px;
+	padding: 3px; /*This is so there is space between the picture and the border to make it look more like a picture frame or professional looking*/
+	margin-top: 11px;
+}
+
+h2 {
+	margin-top: 11px; 
+}
+
+.indent { /*This is a class to indent the two paragraphs in the middle of the page*/
+	text-indent: 30px; 
+}
+
+.unfloat1{clear: left;  /*This is to make the first picture unfloat*/
+}
+
+header {
+    border-bottom: 2px solid #ef9c00; 
+    text-align: center; 
+}
+
+#sidebarA {
+    width: 22%;
+    height: 500px;
+    float: left;
+    border-right: 2px solid #ef9c00;
+    margin: 23px;
+}
+
+main {
+    width: 41%;
+    height:500px;
+    float: left;
+}
+
+#sidebarB {
+    width: 30%;
+    height: 500px;
+    float: right;
+    border-left: 2px solid #ef9c00;
+    padding: 8px; 
+    text-align: center; 
+}
+
+.hodgkin2 { /*This is a class for the second picture in the middle of the page near the bottom*/
+	float: right; 
+	height: 175px;
+	width: 230px;
+	border: thin dashed black; /*This is the border for the picture*/
+}
+
+.unfloat2 {/*This is a class to unfloat the second picture*/
+	clear: right; 
+}
+
+.disclaimer { /*This is a class for the disclaimer at the bottom right of the page*/
+	text-align: right; 
+	font-size: 11px; 
+}
+
+footer {
+    clear: both;  
+    border-top: 2px solid #ef9c00;
+    padding: 20px; 
+    padding-top: 10px; 
+}
